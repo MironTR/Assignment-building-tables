@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Streaming Services Comparison</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Streaming Service Comparison Assignment</h1>
+
+    <table>
+        <caption>Comparison of Popular Streaming Plans</caption>
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Monthly Price</th>
+                <th>Simultaneous Streams</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>StreamFlix</td>
+                <td>$10.99</td>
+                <td>2 Screens</td>
+            </tr>
+            <tr>
+                <td>CineStream</td>
+                <td>$14.99</td>
+                <td>4 Screens</td>
+            </tr>
+            <tr>
+                <td colspan="2">Family Bundle Special (StreamFlix + CineStream)</td>
+                <td>6 Screens</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Conclusions</h2>
+    <ul>
+        <li>StreamFlix is the most affordable standalone option at $10.99 per month.</li>
+        <li>CineStream and the Family Bundle offer higher simultaneous stream counts for multi-user households.</li>
+        <li>The Family Bundle provides the highest stream capacity (6 screens) by combining services using the colspan feature[cite: 1].</li>
+    </ul>
+
+</body>
+</html>
